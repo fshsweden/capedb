@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  country: MyString
+  year: 1
+  inflation: 1.5
+
+two:
+  country: MyString
+  year: 1
+  inflation: 1.5

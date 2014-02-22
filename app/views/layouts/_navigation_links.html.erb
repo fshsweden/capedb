@@ -1,0 +1,7 @@
+<%# add navigation links to this file %>
+
+<% if user_signed_in?  %>
+	<%= link_to 'Sign out', new_user_session_path, class: '' %>
+<% else %>
+	<%= link_to 'Sign in', destroy_user_session_path, class: '' %>
+<% end %>

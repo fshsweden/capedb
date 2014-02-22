@@ -1,0 +1,52 @@
+<h1>Listing products</h1>
+
+
+<div class="product_container">
+
+  <% @products.each do |product| %>
+
+	  <div class="row">
+		<div class="col-lg-4 col-sm-4 col-xs-12">
+
+		  <div class="facebook-header">
+			<%= link_to product.name, product_path(product) %>
+		  </div>
+
+		  <div class="facebook-frame">
+			<div class="person-news">
+			  <div class="person-news-header">Latest news and updates:</div>
+			  <ul>
+				<li>
+				  <div class="product"><%= product.name %></div>
+				</li>
+				<li>
+				  <div class="product_type"><%= product.ptype %></div>
+				</li>
+				<li>
+				  <div class="product_desc"><%= product.desc %></div>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+
+		  <%= link_to 'Show', product %>
+		  <%= link_to 'Edit', edit_product_path(product) %>
+		  <%= link_to 'Destroy', product, method: :delete, data: {confirm: 'Are you sure?'} %>
+		</div>
+
+		<div class="col-lg-4">
+
+		</div>
+
+		<div class="col-lg-4">
+
+		</div>
+
+	  </div>
+
+
+  <% end %>
+
+</div>
+
+

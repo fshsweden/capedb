@@ -1,0 +1,67 @@
+/*
+
+<div class="facebook-frame">
+  <div class="facebook-header">
+    VOLVO
+  </div>
+  <div class="person-news">
+    <div class="person-news-header">Latest news and updates:</div>
+    	<ul>
+       	  <li>Sven Jonsson bough a flower</li>
+	      <li>Ebba Jonsson bough a flower</li>
+	      <li>Göran Jonsson bough a candle that burns for 2 weeks</li>
+	      <li>Sven Jonsson gave to the rememberance fund</li>
+	    </ul>
+    </div>
+  </div>
+</div>
+
+*/
+
+
+.facebook-header {
+  background-color: #FFFFFF;
+  border: 1px solid #3b5998;
+  border-bottom: none;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-size: 21px;
+  line-height: 14px;
+  color: #000000;
+}
+
+.facebook-frame {
+  background-color: #EDEFF4;
+  border: 1px solid #3b5998;
+  margin: 0 0 0 0;
+  padding: 10px;
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-size: 11px;
+  line-height: 14px;
+  color: #3b5998;
+
+  ul {
+    font-size: 11px;
+  }
+
+  div i {
+
+  }
+
+  .facebook-bold-text {
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 14px;
+    color: #3b5998;
+    margin-bottom: 0px; /* otherwise p will have 20 px margin */
+  }
+
+  facebook-link {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+}

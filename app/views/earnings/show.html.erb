@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Belongs to:</strong>
+  <%= @earning.belongs_to %>
+</p>
+
+<p>
+  <strong>Date of entry:</strong>
+  <%= @earning.date_of_entry %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @earning.year %>
+</p>
+
+<p>
+  <strong>Profit:</strong>
+  <%= @earning.profit %>
+</p>
+
+<%= link_to 'Edit', edit_earning_path(@earning) %> |
+<%= link_to 'Back', earnings_path %>

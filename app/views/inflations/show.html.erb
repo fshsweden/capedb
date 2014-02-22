@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @inflation.country %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @inflation.year %>
+</p>
+
+<p>
+  <strong>Inflation:</strong>
+  <%= @inflation.inflation %>
+</p>
+
+<%= link_to 'Edit', edit_country_inflation_path([@country,@inflation]) %> |
+<%= link_to 'Back', country_inflations_path(@country) %>

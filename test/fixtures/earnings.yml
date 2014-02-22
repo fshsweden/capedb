@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  belongs_to: 
+  date_of_entry: 2014-02-19
+  year: 1
+  profit: 1.5
+
+two:
+  belongs_to: 
+  date_of_entry: 2014-02-19
+  year: 1
+  profit: 1.5
