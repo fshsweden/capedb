@@ -10,5 +10,16 @@
   <%= @country.code %>
 </p>
 
+<p>
+	<% if !@country.inflations.blank? %>
+	  <% for i in @country.inflations %>
+	    <%= i.year %>
+	    <%= i.inflation %>
+	  <% end %>
+	<% else %>
+	  
+	<% end %>
+</p>
+
 <%= link_to 'Edit', edit_country_path(@country) %> |
 <%= link_to 'Back', countries_path %>

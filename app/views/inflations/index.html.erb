@@ -1,4 +1,5 @@
-<h1>Listing inflations</h1>
+<h1>Listing inflations for <%= @country.name %></h1>
+<h5><%= link_to "Select another country", countries_path %></h1>
 
 <table>
   <thead>
@@ -20,182 +21,30 @@
 		<td><%= inflation.country.name if inflation.country %></td>
 		<td><%= inflation.year %></td>
 		<td><%= inflation.inflation %></td>
-		<td><%= link_to "Show", edit_country_inflation_path(1,1) %></td>
+		<td><%= link_to "Delete", country_inflation_path(@country,inflation), method: :delete, data: { confirm: 'Are you sure?' } %></td>
 	  </tr>
   <% end %>
   </tbody>
+
+
 </table>
+
+<h1>Add inflation figure </h1>
+<%= form_for ([@country, Inflation.new]) do |f| %>
+  <div class="field">
+    <%= f.label :year %><br>
+    <%= f.number_field :year %>
+  </div>
+  <div class="field">
+    <%= f.label :inflation %><br>
+    <%= f.text_field :inflation %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
 
 <br>
 
 
-<style type="text/css">
-	.container {
-		padding-top: 40px;
-	}
-
-	#details {
-		font-family: "Quicksand", sans-serif;
-		font-size: 60px;
-	}
-
-	#home-box > h2 {
-		font-family: "Quicksand", sans-serif;
-		font-weight: 400;
-		line-height: 1.1;
-		color: #75b1ae;
-	}
-
-	.price {
-		font-size: 25px;
-		float: left;
-	}
-
-	.pricing_header {
-		background: none repeat scroll 0% 0% rgb(44, 62, 80);
-		border-radius: 5px 5px 0px 0px;
-		transition: background 0.4s ease-out 0s;
-	}
-
-	.pricing_header h2 {
-		text-align: center;
-		line-height: 25px;
-		padding: 15px 0px;
-		margin: 0px;
-		font-family: "Quicksand", sans-serif;
-		font-weight: 400;
-		color: #75b1ae;
-	}
-
-	.list-group-item:first-child {
-		border-top-right-radius: 0px;
-		border-top-left-radius: 0px;
-	}
-
-	.btn {
-		float: right;
-		font-family: "Quicksand", sans-serif;
-		font-weight: 500;
-	}
-
-	.off {
-		text-decoration: line-through;
-		color: rgb(86, 86, 86);
-	}
-
-	.space {
-		height: 2px;
-		background-color: #75b1ae;
-	}
-
-	.price_option:hover {
-		padding-top: 10px;
-		background-color: #3b5998;
-	}
-
-</style>
-
-<!-- price & service -->
-<div class="container">
-  <div class="row">
-	<h2 id="details">Choose your package</h2>
-  </div>
-  <br>
-
-
-  <!-- Pack 1-->
-  <div class="col-md-3 price_option" id="home-box">
-
-	<div class="pricing_header">
-	  <h2>Basic User</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> PSD included</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Light and clean</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 9.99</p>
-	  <a class="btn btn-default" href="#" type="button">Abbonati</a>
-	</div>
-  </div>
-
-  <!-- Pack 2-->
-  <div class="col-md-3 price_option" id="home-box">
-	<div class="pricing_header">
-	  <h2>Premium User</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> PSD included</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Light and clean</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 44.99</p>
-	  <a class="btn btn-default" href="#" type="button">Abbonati</a>
-
-	</div>
-  </div>
-
-
-  <!-- Pack 3-->
-  <div class="col-md-3 price_option" id="home-box">
-	<div class="pricing_header">
-	  <h2>Business User</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> PSD included</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Light and clean</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 79.99</p>
-	  <button class="btn btn-default" href="#" type="button">Abbonati</button>
-	  </li>
-	</div>
-  </div>
-
-
-  <!-- Pack 4-->
-  <div class="col-md-3 price_option" id="home-box">
-	<div class="pricing_header">
-	  <h2>Customize</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> PSD included</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Light and clean</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 119.99</p>
-	  <button class="btn btn-default" href="#" type="button">Abbonati</button>
-	  </li>
-	</div>
-
-  </div>
-</div>

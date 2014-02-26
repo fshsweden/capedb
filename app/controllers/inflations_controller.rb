@@ -1,10 +1,12 @@
 class InflationsController < ProtectedController
+  
+  before_action :set_country, only: [:index, :destroy]
   before_action :set_inflation, only: [:show, :edit, :update, :destroy]
 
   # GET /inflations
   # GET /inflations.json
   def index
-    @inflations = Inflation.all
+    @inflations = Inflation.order(:year)
   end
 
   # GET /inflations/1
@@ -67,12 +69,16 @@ class InflationsController < ProtectedController
   def destroy
     @inflation.destroy
     respond_to do |format|
-      format.html { redirect_to inflations_url }
+      format.html { redirect_to country_inflations_url(@country) }
       format.json { head :no_content }
     end
   end
 
   private
+    def set_country
+      @country = Country.find(params[:country_id])
+    end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_inflation
 	  @country = Country.find(params[:country_id])

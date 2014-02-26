@@ -1,5 +1,6 @@
 class ProductsController < ProtectedController
   before_action :set_product, only: [:show, :edit, :update, :destroy]
+  layout "application_logged_in"
 
   # GET /products
   # GET /products.json

@@ -28,7 +28,7 @@ class CountriesController < ProtectedController
 
     respond_to do |format|
       if @country.save
-        format.html { redirect_to @country, notice: 'Country was successfully created.' }
+        format.html { redirect_to countries_path, notice: 'Country was successfully created.' }
         format.json { render action: 'show', status: :created, location: @country }
       else
         format.html { render action: 'new' }
