@@ -47,8 +47,12 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!--      <li class="active"><a href="./">Default</a></li>  -->
-          <li><%= link_to current_user.email, edit_user_registration_path %></li>
-          <li><%= link_to "Sign out", destroy_user_session_path, :method => :DELETE %></li>
+          <% if current_user %>
+              <li><%= link_to current_user.email, edit_user_registration_path %></li>
+              <li><%= link_to "Sign out", destroy_user_session_path, :method => :DELETE %></li>
+          <% else %>
+
+          <% end %>
         </ul>
       </div>
       <!--/.nav-collapse -->
