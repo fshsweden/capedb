@@ -31,6 +31,7 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 group :development do
   # Use sqlite3 as the database for Active Record
+  gem 'quiet_assets' #fantastic gem of a gem!
   gem 'sqlite3'
   gem 'rails_layout'
 end

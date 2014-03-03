@@ -69,6 +69,7 @@ class CountriesController < ProtectedController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def country_params
-      params.require(:country).permit(:name, :code)
+      whitelist = params.require(:country).permit(:name, :code)
+      whitelist
     end
 end

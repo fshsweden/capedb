@@ -1,34 +1,128 @@
-<%= form_for(@product) do |f| %>
-  <% if @product.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
+<!-- <form accept-charset="UTF-8" action="/products/1" class="simple_form form-horizontal" id="edit_product_1" method="post" novalidate="novalidate"> -->
+
+<style type="text/css">
+
+    select {
+        border:1px solid #ccc;      /* weird why is this line important??? */
+        vertical-align:top;
+        height:30px;
+    }
 
 
-      <ul>
-      <% @product.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+    input, select{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+</style>
+<%= form_for @product, html: {class: 'form-horizontal', :role => "form"} do |f| %>
+
+    <!-- Name -->
+
+    <div class="form-group product_name string optional">
+      <label class="control-label col-sm-2 string optional" for="product_name">Name</label>
+
+      <div class="col-sm-10">
+        <input class="form-control string optional" id="product_name" maxlength="255" name="product[name]" size="255" type="text" value="<%= @product.name %>"/>
+      </div>
     </div>
-  <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br>
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :ptype %><br>
-	<%= f.collection_select :ptype, ['Stock','ETF'], :to_s, :to_s, include_blank: false %>
-  </div>
-  <div class="field">
-    <%= f.label :country %><br>
-	<%= collection_select(:country, :country_id, Country.all, :id, :name, :prompt => 'Please select a country') %>
-  </div>
-  <div class="field">
-    <%= f.label :desc %><br>
-    <%= f.text_field :desc %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <!-- Desc -->
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_desc">Desc</label>
+
+      <div class="col-sm-10">
+        <input class="string optional form-control" id="product_desc" maxlength="255" name="product[desc]" size="255" type="text" value="<%= @product.desc %>"/>
+      </div>
+
+    </div>
+
+    <!-- Country -->
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_country_id">Country</label>
+
+      <div class="col-sm-10">
+        <%= f.collection_select :country_id, Country.all, :id, :name, {:include_blank => false} , {:class => "collection_select"} %>
+      </div>
+    </div>
+
+    <!-- Product Type -->
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_ptype">Product Type</label>
+
+      <div class="col-sm-10">
+        <%= f.collection_select :ptype, ['Stock','ETF','Fund'], :to_s, :to_s, {:include_blank => false} , {:class => "collection_select"} %>
+      </div>
+    </div>
+
+
+
+
+    <!-- ----------------------------------  -->
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Remember me
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_name"></label>
+
+      <div class="col-sm-10">
+        <div class="input-group">
+          <span class="input-group-addon">@</span>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_name"></label>
+
+      <div class="col-sm-10">
+        <div class="input-group">
+          <input type="text" class="form-control">
+          <span class="input-group-addon">.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_name"></label>
+
+      <div class="col-sm-10">
+        <div class="input-group">
+          <span class="input-group-addon">$</span>
+          <input type="text" class="form-control">
+          <span class="input-group-addon">.00</span>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="form-group string optional product_desc">
+      <label class="string optional control-label col-sm-2" for="product_name"></label>
+
+      <div class="col-sm-10">
+        <div class="input-group">
+          <div class="actions">
+            <input class="btn btn-primary" name="commit" type="submit" value="Send"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
 <% end %>
+
+<%= link_to 'Destroy', @product, method: :delete, data: {confirm: 'Are you sure?'} %>

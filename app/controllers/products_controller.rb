@@ -29,7 +29,7 @@ class ProductsController < ProtectedController
 
     respond_to do |format|
       if @product.save
-        format.html { redirect_to @product, notice: 'Product was successfully created.' }
+        format.html { redirect_to products_path, notice: 'Product was successfully created.' }
         format.json { render action: 'show', status: :created, location: @product }
       else
         format.html { render action: 'new' }
@@ -43,7 +43,7 @@ class ProductsController < ProtectedController
   def update
     respond_to do |format|
       if @product.update(product_params)
-        format.html { redirect_to @product, notice: 'Product was successfully updated.' }
+        format.html { redirect_to products_path, notice: 'Product was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -70,6 +70,8 @@ class ProductsController < ProtectedController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
-      params.require(:product).permit(:name, :ptype, :desc)
+      # Country_id since Product BELONGS_TO Country
+      whitelist = params.require(:product).permit(:name, :ptype, :desc, :country_id)
+      whitelist
     end
 end

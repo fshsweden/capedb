@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration
     create_table :products do |t|
       t.string :name
       t.string :ptype
-      t.string :country_id
+      t.belongs_to :country
       t.string :desc
       t.timestamps
     end

@@ -24,26 +24,6 @@
         <a class="navbar-brand" href=<%= root_path %>>CAPE</a>
       </div>
       <div class="navbar-collapse collapse">
-
-        <!--
-               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                   <li><a href="#">Action</a></li>
-                   <li><a href="#">Another action</a></li>
-                   <li><a href="#">Something else here</a></li>
-                   <li class="divider"></li>
-                   <li class="dropdown-header">Nav header</li>
-                   <li><a href="#">Separated link</a></li>
-                   <li><a href="#">One more separated link</a></li>
-                 </ul>
-               </li>
-        -->
-
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!--      <li class="active"><a href="./">Default</a></li>  -->
@@ -59,22 +39,23 @@
 
 <%= render 'layouts/messages' %>
 
+<style type="text/css">
+
+</style>
+
 <div class="container">
 
-  <div class="row row-offcanvas row-offcanvas-right">
+  <div class="row">
 
     <div class="col-sm-9">
       <div class="jumbotron">
         <h1>CAPE Ratio Database</h1>
-
         <p>Cyclically Adjusted Price-to-Earnings Ratio</p>
       </div>
 
-      <%= yield %>
-
     </div>
 
-    <div class="col-sm-3" id="sidebar" role="navigation">
+    <div class="col-sm-3">
       <div class="list-group">
         <a href="#" class="list-group-item active">Link</a>
         <%= link_to "List Products", products_path, :class => "list-group-item" %>
@@ -82,6 +63,26 @@
         <%= link_to "List Countries", countries_path, :class => "list-group-item" %>
       </div>
     </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-12 bluebg">
+
+      <!--      <div class="jumbotron">
+              <h1>CAPE Ratio Database</h1>
+              <p>Cyclically Adjusted Price-to-Earnings Ratio</p>
+            </div>   -->
+
+
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-sm-12">
+      <%= yield %>
+    </div>
+
 
   </div>
 
@@ -92,13 +93,6 @@
   </footer>
 
 </div>
-<!--/.container-->
-
-
-<!--    <main role="main">
-       < % = render 'layouts/messages' % >
-       < % = yield % >
-     </main>  -->
 
 </body>
 </html>

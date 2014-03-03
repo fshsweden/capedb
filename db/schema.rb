@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 20140220132738) do
   create_table "products", force: true do |t|
     t.string   "name"
     t.string   "ptype"
-    t.string   "country_id"
+    t.integer  "country_id"
     t.string   "desc"
     t.datetime "created_at"
     t.datetime "updated_at"
