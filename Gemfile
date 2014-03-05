@@ -4,6 +4,9 @@ source "https://rubygems.org"
 gem 'rails', '4.0.2'
 
 gem 'devise'
+gem 'cancan'
+gem 'rolify'
+gem 'whenever'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

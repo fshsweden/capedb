@@ -1,0 +1,15 @@
+<%= simple_form_for(@payment) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :belongs_to %>
+    <%= f.input :date_of_payment %>
+    <%= f.input :amount %>
+    <%= f.input :method %>
+    <%= f.input :desc %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

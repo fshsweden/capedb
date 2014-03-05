@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  belongs_to: 
+  date_of_payment: 2014-03-05
+  amount: 1.5
+  method: MyString
+  desc: MyString
+
+two:
+  belongs_to: 
+  date_of_payment: 2014-03-05
+  amount: 1.5
+  method: MyString
+  desc: MyString

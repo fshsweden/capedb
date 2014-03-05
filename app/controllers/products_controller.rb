@@ -8,6 +8,20 @@ class ProductsController < ProtectedController
     @products = Product.all
   end
 
+  def search_page
+
+  end
+
+  def perform_search
+    if params[:q] && params[:q] != ""
+      @products = Product.where("name LIKE '#{params[:q]}'")   #.page(params[:page])
+      #render 'index'
+    else
+      @products = Product.order(:name) #.page(params[:page])
+      #render 'index'
+    end
+  end
+
   # GET /products/1
   # GET /products/1.json
   def show
@@ -71,7 +85,9 @@ class ProductsController < ProtectedController
     # Never trust parameters from the scary internet, only allow the white list through.
     def product_params
       # Country_id since Product BELONGS_TO Country
-      whitelist = params.require(:product).permit(:name, :ptype, :desc, :country_id)
+      whitelist = params.require(:product).permit(:symbol, :name, :ptype, :issuer,
+                                                  :expense_ratio, :inception, :category, :desc, :country_id)
       whitelist
     end
 end
+

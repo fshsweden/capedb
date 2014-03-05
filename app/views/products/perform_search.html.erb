@@ -1,0 +1,7 @@
+<h1>SEARCH DONE</h1>
+
+<% @products.each do |x| %>
+    <%= link_to x.name, product_path(x) %><br>
+<% end %>
+
+<%= link_to "New Search", products_search_page_path %>

@@ -1,80 +1,71 @@
-<div class="row">
-
-  <div class="col-12 col-sm-12 col-lg-12">
-    <h2>Heading</h2>
-
-    <p><strong>Some text explaining how great this site is.</strong> Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-      condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-      sed odio dui. </p>
-
-    <p><a class="btn btn-default" href="/users/sign_in" role="button">Register for more info... &raquo;</a></p>
-  </div>
-</div>
-
-<div class="row">
 <style type="text/css">
-	.container {
-		padding-top: 40px;
-	}
+    .container {
+        padding-top: 40px;
+    }
 
-	#details {
-		font-family: "Quicksand", sans-serif;
-		font-size: 60px;
-	}
+    #intro {
+        font-family: "Quicksand", sans-serif;
+        font-size: 60px;
+    }
 
-	#home-box > h2 {
-		font-family: "Quicksand", sans-serif;
-		font-weight: 400;
-		line-height: 1.1;
-		color: #75b1ae;
-	}
+    #details {
+        font-family: "Quicksand", sans-serif;
+        font-size: 60px;
+    }
 
-	.price {
-		font-size: 25px;
-		float: left;
-	}
+    #home-box > h2 {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        line-height: 1.1;
+        color: #75b1ae;
+    }
 
-	.pricing_header {
-		background: none repeat scroll 0% 0% rgb(44, 62, 80);
-		border-radius: 5px 5px 0px 0px;
-		transition: background 0.4s ease-out 0s;
-	}
+    .price {
+        font-size: 25px;
+        float: left;
+    }
 
-	.pricing_header h2 {
-		text-align: center;
-		line-height: 25px;
-		padding: 15px 0px;
-		margin: 0px;
-		font-family: "Quicksand", sans-serif;
-		font-weight: 400;
-		color: #75b1ae;
-	}
+    .pricing_header {
+        background: none repeat scroll 0% 0% rgb(44, 62, 80);
+        border-radius: 5px 5px 0px 0px;
+        transition: background 0.4s ease-out 0s;
+    }
 
-	.list-group-item:first-child {
-		border-top-right-radius: 0px;
-		border-top-left-radius: 0px;
-	}
+    .pricing_header h2 {
+        text-align: center;
+        line-height: 25px;
+        padding: 15px 0px;
+        margin: 0px;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        color: #75b1ae;
+    }
 
-	.btn {
-		float: right;
-		font-family: "Quicksand", sans-serif;
-		font-weight: 500;
-	}
+    .list-group-item:first-child {
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
 
-	.off {
-		text-decoration: line-through;
-		color: rgb(86, 86, 86);
-	}
+    .btn {
+        float: right;
+        font-family: "Quicksand", sans-serif;
+        font-weight: 500;
+    }
 
-	.space {
-		height: 2px;
-		background-color: #75b1ae;
-	}
+    .off {
+        text-decoration: line-through;
+        color: rgb(86, 86, 86);
+    }
 
-	.price_option:hover {
-		padding-top: 10px;
-		background-color: #3b5998;
-	}
+    .space {
+        height: 2px;
+        background-color: #75b1ae;
+    }
+
+    .price_option:hover {
+        padding-top: 10px;
+        background-color: #3b5998;
+    }
 
 </style>
 
@@ -82,175 +73,181 @@
 <div class="container">
 
   <div class="row">
-	<h2 id="details">Choose your package</h2>
+    <h2 id="intro">Heading</h2>
+    <div class="col-sm-12">
+      <p><strong>Some text explaining how great this site is.</strong> Donec id elit non mi porta gravida at eget metus.
+        Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
+    </div>
   </div>
-
-  <br>
-
-  <!-- Pack 1-->
-  <div class="col-md-3 price_option" id="home-box">
-
-	<div class="pricing_header">
-	  <h2>Basic User</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> PSD included</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Light and clean</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 9.99</p>
-	  <a class="btn btn-default" href="#" type="button">Select</a>
-	</div>
-  </div>
-
-  <!-- Pack 2-->
-  <div class="col-md-3 price_option" id="home-box">
-	<div class="pricing_header">
-	  <h2>Premium User</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> PSD included</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Light and clean</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 44.99</p>
-	  <a class="btn btn-default" href="#" type="button">Select</a>
-
-	</div>
-  </div>
-
-
-  <!-- Pack 3-->
-  <div class="col-md-3 price_option" id="home-box">
-	<div class="pricing_header">
-	  <h2>Business User</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> PSD included</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Light and clean</li>
-	  <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 79.99</p>
-	  <button class="btn btn-default" href="#" type="button">Select</button>
-	  </li>
-	</div>
-  </div>
-
-
-  <!-- Pack 4-->
-  <div class="col-md-3 price_option" id="home-box">
-	<div class="pricing_header">
-	  <h2>Customize</h2>
-
-	  <div class="space"></div>
-	</div>
-	<ul class="list-group">
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Responsible design</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> 3 examples</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> HTML5 & CSS3</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> PSD included</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Light and clean</li>
-	  <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Customizible HTML</li>
-	</ul>
-
-	<div class="try">
-	  <p class="price">$ 119.99</p>
-	  <button class="btn btn-default" href="#" type="button">Select</button>
-	  </li>
-	</div>
-
-  </div>
-
-</div>
-
 
 
   <div class="row">
-	<h2 id="details">More options</h2>
+    <h2 id="details">Choose your package</h2>
+
+    <!-- Pack 1-->
+    <div class="col-sm-3 price_option" id="home-box">
+
+      <div class="pricing_header">
+        <h2>Free</h2>
+
+        <div class="space"></div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Top-10 ETF List updated daily</li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Weekly e-mail with updates</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Excel sheets with data</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+      </ul>
+
+      <div class="try">
+        <p class="price">FREE!</p>
+        <a class="btn btn-primary" href="/users/sign_in" type="button">Select</a>
+      </div>
+    </div>
+
+    <!-- Pack 2-->
+    <div class="col-sm-3 price_option" id="home-box">
+      <div class="pricing_header">
+        <h2>Basic</h2>
+
+        <div class="space"></div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Top-10 ETF List updated daily</li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Weekly e-mail with updates</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Excel sheets with data</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+      </ul>
+
+      <div class="try">
+        <p class="price">10€ / mon</p>
+        <a class="btn btn-primary" href="/users/sign_in" type="button">Select</a>
+
+      </div>
+    </div>
+
+
+    <!-- Pack 3-->
+    <div class="col-sm-3 price_option" id="home-box">
+      <div class="pricing_header">
+        <h2>Premium</h2>
+
+        <div class="space"></div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Top-10 ETF List updated daily</li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Weekly e-mail with updates</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Excel sheets with data</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+      </ul>
+
+      <div class="try">
+        <p class="price">20€ / mon</p>
+        <button class="btn btn-primary" href="/users/sign_in" type="button">Select</button>
+        </li>
+      </div>
+    </div>
+
+
+    <!-- Pack 4-->
+    <div class="col-sm-3 price_option" id="home-box">
+      <div class="pricing_header">
+        <h2>Full</h2>
+
+        <div class="space"></div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Top-10 ETF List updated daily</li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok"></span> Weekly e-mail with updates</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> Excel sheets with data</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+        <li class="list-group-item off"><span class="glyphicon glyphicon-remove"></span> *****</li>
+      </ul>
+
+      <div class="try">
+        <p class="price">50€ / mon</p>
+        <button class="btn btn-primary" href="/users/sign_in" type="button">Select</button>
+        </li>
+      </div>
+
+    </div>
+
   </div>
 
-  <div class="col-6 col-sm-6 col-lg-4">
 
-	<h2>Heading</h2>
+  <div class="row">
+    <h2 id="details">More options</h2>
 
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-	  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-	  sed odio dui. </p>
+    <div class="col-sm-6 col-sm-6 col-lg-4">
 
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-  </div>
+      <h2>Heading</h2>
+
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
+
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
 
 
-  <div class="col-6 col-sm-6 col-lg-4">
-	<h2>Heading</h2>
+    <div class="col-6 col-sm-6 col-lg-4">
+      <h2>Heading</h2>
 
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-	  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-	  sed odio dui. </p>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
 
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-  </div>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
 
-  <div class="col-6 col-sm-6 col-lg-4">
-	<h2>Heading</h2>
+    <div class="col-6 col-sm-6 col-lg-4">
+      <h2>Heading</h2>
 
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-	  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-	  sed odio dui. </p>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
 
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-  </div>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
 
-  <div class="col-6 col-sm-6 col-lg-4">
-	<h2>Heading</h2>
+    <div class="col-6 col-sm-6 col-lg-4">
+      <h2>Heading</h2>
 
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-	  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-	  sed odio dui. </p>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
 
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-  </div>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
 
-  <div class="col-6 col-sm-6 col-lg-4">
-	<h2>Heading</h2>
+    <div class="col-6 col-sm-6 col-lg-4">
+      <h2>Heading</h2>
 
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-	  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-	  sed odio dui. </p>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
 
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-  </div>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
 
-  <div class="col-6 col-sm-6 col-lg-4">
-	<h2>Heading</h2>
+    <div class="col-6 col-sm-6 col-lg-4">
+      <h2>Heading</h2>
 
-	<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-	  condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
-	  sed odio dui. </p>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec
+        sed odio dui. </p>
 
-	<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+    </div>
   </div>
 
 </div>

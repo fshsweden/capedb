@@ -1,50 +1,44 @@
 <h1>Listing inflations for <%= @country.name %></h1>
 <h5><%= link_to "Select another country", countries_path %></h1>
 
-<table>
-  <thead>
-  <tr>
-	<th>Country ID</th>
-	<th>Country</th>
-	<th>Year</th>
-	<th>Inflation</th>
-	<th></th>
-	<th></th>
-	<th></th>
-  </tr>
-  </thead>
 
-  <tbody>
   <% @inflations.each do |inflation| %>
-	  <tr>
-		<td><%= inflation.country_id %></td>
-		<td><%= inflation.country.name if inflation.country %></td>
-		<td><%= inflation.year %></td>
-		<td><%= inflation.inflation %></td>
-		<td><%= link_to "Delete", country_inflation_path(@country,inflation), method: :delete, data: { confirm: 'Are you sure?' } %></td>
-	  </tr>
+      <div class="row">
+        <div class="col-xs-1 form_control"><%= inflation.year %></div>
+        <div class="col-xs-2 form_control"><%= inflation.inflation %></div>
+        <div class="col-xs-2 form_control">
+          <%= link_to "Edit", edit_country_inflation_path(@country, inflation) %>
+          <%= link_to "Delete", country_inflation_path(@country, inflation), method: :delete, data: {confirm: 'Are you sure?'} %>
+        </div>
+      </div>
   <% end %>
-  </tbody>
 
 
-</table>
+  <h1>Add Inflation Figure</h1>
 
-<h1>Add inflation figure </h1>
-<%= form_for ([@country, Inflation.new]) do |f| %>
-  <div class="field">
-    <%= f.label :year %><br>
-    <%= f.number_field :year %>
-  </div>
-  <div class="field">
-    <%= f.label :inflation %><br>
-    <%= f.text_field :inflation %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
-<% end %>
+  <%= form_for [@country, Inflation.new], :html => {:class => 'form-horizontal'} do |f| %>
 
+      <div class="form-group">
+        <label for="inputYear" class="control-label col-xs-2">Year</label>
 
-<br>
+        <div class="col-xs-10">
+          <%= f.text_field :year, :class => "form-control" %>
+        </div>
+      </div>
 
+      <div class="form-group">
+        <label for="inputInflation" class="control-label col-xs-2">Inflation</label>
+
+        <div class="col-xs-10">
+          <%= f.text_field :inflation, :class => "form-control" %>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-xs-offset-2 col-xs-10">
+          <%= f.submit "Save", {:class => "btn btn-primary"} %>
+        </div>
+      </div>
+
+  <% end %>
 

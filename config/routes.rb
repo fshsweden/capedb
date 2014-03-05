@@ -1,19 +1,24 @@
 Cape::Application.routes.draw do
 
-  devise_for :users
-	root 'welcome#index'
+  devise_for :users  # , :controllers => {:registrations => "registrations"}
 
+	root 'welcome#index'
 	get "welcome/index"
 
 	resources :countries do
 		resources :inflations
 	end
 
+  get 'products/search_page'
+  post "products/perform_search"
+
 	resources :products do
 		get "cape/index"
 		resources :earnings
 		resources :prices
-	end
+  end
+
+  resources :payments
 
 	# The priority is based upon order of creation: first created -> highest priority.
 	# See how all your routes lay out with "rake routes".

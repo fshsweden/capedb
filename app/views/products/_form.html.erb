@@ -16,7 +16,19 @@
     }
 
 </style>
+
 <%= form_for @product, html: {class: 'form-horizontal', :role => "form"} do |f| %>
+
+    <!-- Symbol -->
+
+    <div class="form-group product_symbol string optional">
+      <label class="control-label col-sm-2 string optional" for="product_symbol">Symbol</label>
+
+      <div class="col-sm-10">
+<!--        <input class="form-control string optional" id="product_symbol" maxlength="255" name="product[symbol]" size="255" type="text" value="<%= @product.symbol %>"/> -->
+        <%= f.text_field :symbol, :class => "form-control string required" %>
+      </div>
+    </div>
 
     <!-- Name -->
 
@@ -24,7 +36,8 @@
       <label class="control-label col-sm-2 string optional" for="product_name">Name</label>
 
       <div class="col-sm-10">
-        <input class="form-control string optional" id="product_name" maxlength="255" name="product[name]" size="255" type="text" value="<%= @product.name %>"/>
+<!--        <input class="form-control string optional" id="product_name" maxlength="255" name="product[name]" size="255" type="text" value="<%= @product.name %>"/>  -->
+        <%= f.text_field :name, :class => "form-control string required" %>
       </div>
     </div>
 
@@ -34,7 +47,8 @@
       <label class="string optional control-label col-sm-2" for="product_desc">Desc</label>
 
       <div class="col-sm-10">
-        <input class="string optional form-control" id="product_desc" maxlength="255" name="product[desc]" size="255" type="text" value="<%= @product.desc %>"/>
+<!--        <input class="string optional form-control" id="product_desc" maxlength="255" name="product[desc]" size="255" type="text" value="<%= @product.desc %>"/> -->
+        <%= f.text_field :desc, :class => "form-control string optional" %>
       </div>
 
     </div>
@@ -64,6 +78,7 @@
 
     <!-- ----------------------------------  -->
 
+    <!--
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
         <div class="checkbox">
@@ -122,6 +137,7 @@
         </div>
       </div>
     </div>
+-->
 
 <% end %>
 

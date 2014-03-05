@@ -8,6 +8,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
 <header>
@@ -27,7 +28,12 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!--      <li class="active"><a href="./">Default</a></li>  -->
-          <li><%= link_to current_user.email, edit_user_registration_path %></li>
+          <% if current_user.has_role? :admin %>
+            <% str = current_user.email + " (admin)" %>
+          <% else %>>
+              <% str = current_user.email %>
+          <% end %>
+          <li><%= link_to str, edit_user_registration_path %></li>
           <li><%= link_to "Sign out", destroy_user_session_path, :method => :DELETE %></li>
         </ul>
       </div>

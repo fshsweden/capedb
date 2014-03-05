@@ -58,10 +58,20 @@
     margin-bottom: 0px; /* otherwise p will have 20 px margin */
   }
 
-  facebook-link {
+  .facebook-link {
     &:hover {
       text-decoration: underline;
     }
   }
 
+}
+
+.has_bg {
+  background-image: asset_url('bg.jpg');
+  background-size: 100%;
+  background-color: red;
+}
+
+.container {
+  background-color: white;
 }

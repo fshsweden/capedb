@@ -2,33 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8dc8d7-da1b-42c0-ad51-f2a3f30b6c66" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/my_specials.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/products/perform_search.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/products/search_page.html.erb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/._.DS_Store" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/._.DS_Store" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/._.DS_Store" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/._.DS_Store" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140219090601_create_products.rb" afterPath="$PROJECT_DIR$/db/migrate/20140219090601_create_products.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20140220132738_devise_create_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20140220132738_devise_create_users.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/countries/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/countries/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/inflations/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/inflations/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/products/_form.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/appstyles.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/appstyles.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/capedb.iml" afterPath="$PROJECT_DIR$/.idea/capedb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/countries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/countries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/country.rb" afterPath="$PROJECT_DIR$/app/models/country.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/countries/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/countries/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/framework_and_overrides.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/framework_and_overrides.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/devise_layout.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/devise_layout.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/inflations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/inflations/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/inflations/index.html.erb" afterPath="$PROJECT_DIR$/app/views/inflations/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/product.rb" afterPath="$PROJECT_DIR$/app/models/product.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/products_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" afterPath="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/products/show.html.erb" afterPath="$PROJECT_DIR$/app/views/products/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="capedb.iws" />
@@ -55,135 +65,26 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="-35.48387" vertical-offset="0" max-vertical-offset="2948">
-              <folding>
-                <marker date="1393835407000" expanded="true" signature="177:470" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="191:325" placeholder="{...}" />
-                <marker date="1393835407000" expanded="true" signature="345:461" placeholder="{...}" />
-                <marker date="1393835407000" expanded="true" signature="631:939" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="754:928" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="1017:1326" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="1140:1314" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="1407:1696" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="1539:1685" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="1782:2079" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="1914:2068" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2162:2363" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2208:2352" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2239:2339" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2257:2324" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2422:2739" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2541:2728" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2575:2715" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2798:3094" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2917:3083" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="2951:3070" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3153:3500" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3272:3489" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3306:3476" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3562:3889" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3681:3878" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3715:3865" placeholder="..." />
-                <marker date="1393835407000" expanded="true" signature="3747:3850" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_options_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.2/lib/action_view/helpers/form_options_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="784" column="10" selection-start="39250" selection-end="39250" vertical-scroll-proportion="0.0" vertical-offset="16946" max-vertical-offset="18568">
+            <state line="121" column="14" selection-start="4142" selection-end="4142" vertical-scroll-proportion="-8.354838" vertical-offset="2403" max-vertical-offset="3300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <file leaf-file-name="_messages.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1342">
-              <folding>
-                <marker date="1393803964000" expanded="true" signature="244:1075" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="279:344" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="378:887" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="407:876" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="485:866" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="494:557" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="578:700" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="709:778" placeholder="..." />
-                <marker date="1393803964000" expanded="true" signature="787:855" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/countries/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="264">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/countries/_form.html.erb">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.1077551" vertical-offset="0" max-vertical-offset="1694">
+            <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.24205379" vertical-offset="0" max-vertical-offset="1540">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.2/lib/action_view/helpers/form_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1765" column="10" selection-start="81962" selection-end="81962" vertical-scroll-proportion="0.0" vertical-offset="37994" max-vertical-offset="41492">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/prices/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="792">
-              <folding>
-                <marker date="1393416586000" expanded="true" signature="92:327" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="206:316" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="371:525" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="547:617" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="639:695" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="719:748" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/inflations/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="748">
-              <folding>
-                <marker date="1393416586000" expanded="true" signature="115:362" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="237:351" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="397:467" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="489:567" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="591:620" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/earnings/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="440">
-              <folding>
-                <marker date="1393416586000" expanded="true" signature="97:223" placeholder="..." />
-                <marker date="1393416586000" expanded="true" signature="253:290" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -191,7 +92,52 @@
       <file leaf-file-name="application_logged_in.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="24" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-24.838709" vertical-offset="308" max-vertical-offset="2288">
+            <state line="11" column="5" selection-start="483" selection-end="483" vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="2420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="510" selection-end="757" vertical-scroll-proportion="-17.032259" vertical-offset="0" max-vertical-offset="902">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20140219090601_create_products.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20140219090601_create_products.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="97" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter_parameter_logging.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="22" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2178">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appstyles.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/appstyles.css.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="2" selection-start="1351" selection-end="1351" vertical-scroll-proportion="-18.838709" vertical-offset="934" max-vertical-offset="1804">
               <folding />
             </state>
           </provider>
@@ -211,33 +157,54 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/devise_layout.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/country.rb" />
-        <option value="$PROJECT_DIR$/app/models/product.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140219090601_create_products.rb" />
         <option value="$PROJECT_DIR$/app/controllers/countries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/framework_and_overrides.css.scss" />
         <option value="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" />
         <option value="$PROJECT_DIR$/config/initializers/simple_form.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/countries/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/countries/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/inflations/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/inflations/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/inflations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/search.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/search_page.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/perform_search.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/models/ability.rb" />
+        <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/product.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140303143627_add_name_to_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140303150018_add_username_to_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140220132738_devise_create_users.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140305151732_create_payments.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/devise_layout.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/appstyles.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140219090601_create_products.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1330" />
+    <option name="x" value="2571" />
+    <option name="y" value="29" />
+    <option name="width" value="1577" />
+    <option name="height" value="1159" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,99 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v3.1.1.0, RVM: ruby-2.0.0-p451) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v3.1.1.0, RVM: ruby-2.0.0-p451) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actionpack (v4.0.2, RVM: ruby-2.0.0-p451) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actionpack (v4.0.2, RVM: ruby-2.0.0-p451) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action_view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="actionpack (v4.0.2, RVM: ruby-2.0.0-p451) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action_view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,6 +261,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="capedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="capedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="capedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -479,28 +376,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -519,11 +394,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="capedb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="capedb" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inflations" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,91 +426,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="earnings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devise" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="countries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cape" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="capedb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -678,13 +479,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesRHTML" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/rails-recurly-subscription-saas" />
   </component>
   <component name="RunManager" selected="Rails.Development: capedb">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -852,16 +653,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="23" width="2560" height="1330" extended-state="6" />
+    <frame x="2571" y="29" width="1577" height="1159" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26029527" sideWeight="0.36171874" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20430107" sideWeight="0.36171874" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23335446" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26029527" sideWeight="0.6382812" order="8" side_tool="true" content_ui="tabs" />
@@ -875,27 +676,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26029527" sideWeight="0.36171874" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26029527" sideWeight="0.6382812" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1950272" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.190625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944834" sideWeight="0.5410156" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -914,378 +694,362 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/country.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.15865384" vertical-offset="0" max-vertical-offset="832" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/countries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="7" selection-start="1529" selection-end="1529" vertical-scroll-proportion="0.0" vertical-offset="950" max-vertical-offset="1782" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="9416" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_dropdowns.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="4818" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/sass-rails-4.0.1/lib/rails/generators/sass/assets/templates/stylesheet.css.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/sass-rails-4.0.1/lib/rails/generators/scss/assets/templates/stylesheet.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/templates/project/_variables.scss.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/lib/bootstrap-sass/engine.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="891" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="22" selection-start="357" selection-end="357" vertical-scroll-proportion="0.38372093" vertical-offset="0" max-vertical-offset="1210" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1760" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="208" selection-end="208" vertical-scroll-proportion="-7.096774" vertical-offset="0" max-vertical-offset="3630" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_alerts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1606" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="19" selection-start="3273" selection-end="3273" vertical-scroll-proportion="214.32259" vertical-offset="9328" max-vertical-offset="20966" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/lib/bootstrap-sass/version.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/templates/erb/scaffold/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/appstyles.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1606" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1474" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/simple_form-3.0.1/lib/simple_form/components/placeholders.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/simple_form-3.0.1/lib/simple_form/components/html5.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/simple_form-3.0.1/lib/simple_form/wrappers/builder.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="23" selection-start="2177" selection-end="2177" vertical-scroll-proportion="0.0" vertical-offset="614" max-vertical-offset="1870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="220">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/simple_form-3.0.1/lib/simple_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="2" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.0" vertical-offset="1391" max-vertical-offset="4972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/simple_form-3.0.1/lib/simple_form/components/label_input.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="10" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.0.2/lib/rails/generators/rails/scaffold/templates/scaffold.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="337" selection-end="337" vertical-scroll-proportion="0.33333334" vertical-offset="89" max-vertical-offset="1364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/simple_form-3.0.1/lib/simple_form/inputs/text_input.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.2/lib/action_view/helpers/tags/text_area.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/show.json.jbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.017515924" vertical-offset="0" max-vertical-offset="1256">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="7" selection-start="1880" selection-end="1880" vertical-scroll-proportion="0.99597746" vertical-offset="192" max-vertical-offset="2442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="19" selection-start="3435" selection-end="3435" vertical-scroll-proportion="-0.12101911" vertical-offset="2088" max-vertical-offset="3344">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_forms.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="8" selection-start="2391" selection-end="2391" vertical-scroll-proportion="-3.3548386" vertical-offset="2316" max-vertical-offset="9724">
+        <state line="148" column="1" selection-start="2428" selection-end="3792" vertical-scroll-proportion="169.12903" vertical-offset="8499" max-vertical-offset="9724">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="0.017959183" vertical-offset="0" max-vertical-offset="1225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="491" selection-end="491" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="18458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_pager.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_carousel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="19" selection-start="4392" selection-end="4392" vertical-scroll-proportion="3.7494383" vertical-offset="1393" max-vertical-offset="5236">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/framework_and_overrides.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2068">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="936" selection-end="936" vertical-scroll-proportion="-24.129032" vertical-offset="0" max-vertical-offset="946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_jumbotron.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="-15.935484" vertical-offset="122" max-vertical-offset="1100">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="24" selection-start="1636" selection-end="1636" vertical-scroll-proportion="-24.838709" vertical-offset="308" max-vertical-offset="2288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.2/lib/action_view/helpers/form_options_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="784" column="10" selection-start="39250" selection-end="39250" vertical-scroll-proportion="0.0" vertical-offset="16946" max-vertical-offset="18568">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1698" selection-end="1698" vertical-scroll-proportion="-35.48387" vertical-offset="0" max-vertical-offset="2948">
-          <folding>
-            <marker date="1393835407000" expanded="true" signature="177:470" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="191:325" placeholder="{...}" />
-            <marker date="1393835407000" expanded="true" signature="345:461" placeholder="{...}" />
-            <marker date="1393835407000" expanded="true" signature="631:939" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="754:928" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="1017:1326" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="1140:1314" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="1407:1696" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="1539:1685" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="1782:2079" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="1914:2068" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2162:2363" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2208:2352" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2239:2339" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2257:2324" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2422:2739" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2541:2728" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2575:2715" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2798:3094" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2917:3083" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="2951:3070" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3153:3500" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3272:3489" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3306:3476" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3562:3889" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3681:3878" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3715:3865" placeholder="..." />
-            <marker date="1393835407000" expanded="true" signature="3747:3850" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="130" selection-end="130" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="1342">
-          <folding>
-            <marker date="1393803964000" expanded="true" signature="244:1075" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="279:344" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="378:887" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="407:876" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="485:866" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="494:557" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="578:700" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="709:778" placeholder="..." />
-            <marker date="1393803964000" expanded="true" signature="787:855" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/prices/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <folding>
-            <marker date="1393416586000" expanded="true" signature="92:327" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="206:316" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="371:525" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="547:617" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="639:695" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="719:748" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inflations/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/inflations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1256">
-          <folding>
-            <marker date="1393416586000" expanded="true" signature="115:362" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="237:351" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="397:467" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="489:567" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="591:620" placeholder="..." />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inflations/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1229" selection-end="1400" vertical-scroll-proportion="-29.096775" vertical-offset="0" max-vertical-offset="1100">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/earnings/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1256">
-          <folding>
-            <marker date="1393416586000" expanded="true" signature="97:223" placeholder="..." />
-            <marker date="1393416586000" expanded="true" signature="253:290" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cape/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1256">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/countries/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.0.2/lib/action_view/helpers/form_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1765" column="10" selection-start="81962" selection-end="81962" vertical-scroll-proportion="0.0" vertical-offset="37994" max-vertical-offset="41492">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/countries/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.1077551" vertical-offset="0" max-vertical-offset="1694">
+        <state line="26" column="10" selection-start="737" selection-end="737" vertical-scroll-proportion="-18.451612" vertical-offset="0" max-vertical-offset="968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inflations/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-24.838709" vertical-offset="0" max-vertical-offset="946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/prices/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/prices/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inflations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="60" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.8387096" vertical-offset="0" max-vertical-offset="242">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/countries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/country.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="657" selection-end="657" vertical-scroll-proportion="-12.064516" vertical-offset="0" max-vertical-offset="1452">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="-8.5161295" vertical-offset="0" max-vertical-offset="396">
+          <folding>
+            <marker date="1393416586000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1393416586000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="-0.7096774" vertical-offset="0" max-vertical-offset="264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/products_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1256">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="-0.7096774" vertical-offset="286" max-vertical-offset="1364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/search_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="-4.967742" vertical-offset="0" max-vertical-offset="286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/perform_search.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="47" selection-start="155" selection-end="155" vertical-scroll-proportion="-4.2580647" vertical-offset="0" max-vertical-offset="264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="521" selection-end="521" vertical-scroll-proportion="-2.1290324" vertical-offset="242" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451@global/gems/bundler-1.5.3/lib/bundler.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="27" selection-start="2397" selection-end="2397" vertical-scroll-proportion="0.33333334" vertical-offset="903" max-vertical-offset="9416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1100">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/ability.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p451/gems/cancan-1.6.10/lib/cancan/ability.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="5" selection-start="4601" selection-end="4601" vertical-scroll-proportion="0.0" vertical-offset="3301" max-vertical-offset="6974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="432" selection-end="432" vertical-scroll-proportion="0.29766297" vertical-offset="0" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/rolify.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="334" selection-end="334" vertical-scroll-proportion="0.17969662" vertical-offset="0" max-vertical-offset="857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="11" selection-start="813" selection-end="813" vertical-scroll-proportion="0.59952605" vertical-offset="44" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="207" column="0" selection-start="6970" selection-end="6970" vertical-scroll-proportion="3.8576875" vertical-offset="1518" max-vertical-offset="5720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.026474128" vertical-offset="0" max-vertical-offset="831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140305112419_rolify_create_roles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140220132738_devise_create_users.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140305151732_create_payments.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/devise_layout.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="19" selection-start="2631" selection-end="2631" vertical-scroll-proportion="1.956798" vertical-offset="0" max-vertical-offset="2266">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/my_specials.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/cape_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="43" selection-start="318" selection-end="318" vertical-scroll-proportion="0.16236162" vertical-offset="0" max-vertical-offset="814">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/price.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="197" selection-end="197" vertical-scroll-proportion="0.07819905" vertical-offset="0" max-vertical-offset="5720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/registrations_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/earnings_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140219155502_create_countries.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="612" selection-end="612" vertical-scroll-proportion="-10.645162" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/appstyles.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="2" selection-start="1351" selection-end="1351" vertical-scroll-proportion="-18.838709" vertical-offset="934" max-vertical-offset="1804">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application_logged_in.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="483" selection-end="483" vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="2420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="510" selection-end="757" vertical-scroll-proportion="-17.032259" vertical-offset="0" max-vertical-offset="902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140219090601_create_products.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="97" selection-end="324" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/filter_parameter_logging.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/products_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="22" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="14" selection-start="4142" selection-end="4142" vertical-scroll-proportion="-8.354838" vertical-offset="2403" max-vertical-offset="3300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_messages.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="831">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.24205379" vertical-offset="0" max-vertical-offset="1540">
           <folding />
         </state>
       </provider>

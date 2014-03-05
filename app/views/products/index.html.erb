@@ -37,9 +37,10 @@
 			</div>
 		  </div>
 
-		  <%= link_to 'Show', product %>
-		  <%= link_to 'Edit', edit_product_path(product) %>
-		  <%= link_to 'Destroy', product, method: :delete, data: {confirm: 'Are you sure?'} %>
+          <% if current_user && current_user.level == "ADMIN" %>
+		    <%= link_to 'Edit', edit_product_path(product) %>
+		    <%= link_to 'Destroy', product, method: :delete, data: {confirm: 'Are you sure?'} %>
+          <% end  %>
 		</div>
 
     <% if close_row %>

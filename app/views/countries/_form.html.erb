@@ -34,38 +34,5 @@
 
 <% end %>
 
-<h1>Inflation</h1>
+<%= link_to "Edit inflation records for " + @country.name, country_inflations_path(@country) %>
 
-<%= form_for [@country, Inflation.new], :html => {:class => 'form-horizontal'} do |f| %>
-
-    <div class="form-group">
-      <label for="inputEmail" class="control-label col-xs-2">Year</label>
-
-      <div class="col-xs-10">
-        <input type="text" class="form-control" id="inputEmail" placeholder="Email" value="">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <label for="inputPassword" class="control-label col-xs-2" value="">Inflation</label>
-
-      <div class="col-xs-10">
-        <input type="text" class="form-control" id="inputPassword" placeholder="Password" value="">
-      </div>
-    </div>
-
-    <div class="form-group">
-      <div class="col-xs-offset-2 col-xs-10">
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-      </div>
-    </div>
-
-    <div class="form-group">
-      <div class="col-xs-offset-2 col-xs-10">
-        <button type="submit" class="btn btn-primary">Send</button>
-      </div>
-    </div>
-
-<% end %>
