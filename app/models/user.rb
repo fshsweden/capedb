@@ -6,6 +6,22 @@ class User < ActiveRecord::Base
     # do something before it gets added
   end
 
+  after_destroy :send_destroy_mail
+  after_update :send_update_mail
+  after_create :send_create_mail
+
+  def send_create_mail
+    UserMailer.welcome_email(self).deliver
+  end
+
+  def send_update_mail
+    UserMailer.updated_email(self).deliver
+  end
+
+  def send_destroy_mail
+    UserMailer.destroy_email(self).deliver
+  end
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
